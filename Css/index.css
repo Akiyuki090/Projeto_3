@@ -1,0 +1,117 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: "lato", Helvetica, Arial, sans-serif;
+
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+}
+
+a{
+
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+ul, li{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+    font-size: 1.5rem;
+    margin: 10px;
+    font-weight: bold;
+
+}
+
+li{
+
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+li:hover{
+
+    background-color: #83A5C0;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+#apresentation{
+
+    background-image: url(/Img/the-fog-4909513_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 8em 0;
+    position: relative;
+    -webkit-box-shadow: inset 0px 0px 50px 13px #000000; 
+    box-shadow: inset 0px 0px 50px 13px #000000;
+    background-attachment: fixed;
+
+}
+
+#apresentation, .texto1{
+
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+
+}
+
+#sobre{
+
+    background-color: black;
+
+}
+
+.textoA, .texto{
+
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.textoA{
+
+    margin-top: 25px;
+
+}
+
+.texto{
+
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 1em;
+
+}
+

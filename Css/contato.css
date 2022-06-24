@@ -1,0 +1,160 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: "lato", Helvetica, Arial, sans-serif;
+    background-color: black;
+
+}
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+}
+
+a{
+
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+#menu1, .menu{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+    font-size: 1.5rem;
+    margin: 10px;
+    font-weight: bold;
+
+}
+
+.menu{
+
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.menu:hover{
+
+    background-color: #83A5C0;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+h1{
+
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 40px;
+
+}
+
+#social{
+
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    margin: 10px;
+}
+
+#social, #redes{
+
+    color: white;
+    font-size: 1.1em;
+
+}
+
+#redes{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+
+}
+
+.icones{
+
+    list-style: none;
+
+}
+
+.icones:hover{
+
+    transform: scale(1.1);
+    transition: 1.8s;
+    cursor: pointer;
+
+}
+
+#enviarmensagem{
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+}
+
+.textoinput{
+    
+    color: white;
+    text-align: justify;
+    font-size: 1.1em;
+
+}
+
+#enviarmensagem input, #enviarmensagem textarea{
+
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: black;
+
+}
+
+#enviarmensagem textarea{
+
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 468px;
+    height: 160px;
+
+}
+
+#enviarmensagem input[type = submit]{
+
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+
+}
+
+#enviarmensagem input[type=submit]:hover{
+
+    transform: scale(1.09);
+    transition: 1.9s;
+    cursor: pointer;
+}
